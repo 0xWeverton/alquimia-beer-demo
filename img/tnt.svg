@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" width="400" height="480">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#241b14"/>
+      <stop offset="100%" stop-color="#120e0b"/>
+    </linearGradient>
+    <linearGradient id="hl" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0.22"/>
+      <stop offset="45%" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="480" fill="url(#bg)"/>
+  <ellipse cx="200" cy="442" rx="92" ry="14" fill="#000" opacity="0.35"/>
+  <g>
+    <ellipse cx="200" cy="100" rx="70" ry="16" fill="#111"/>
+    <rect x="130" y="100" width="140" height="290" rx="0" fill="#1a1a1a"/>
+    <!-- round sides by overlaying -->
+    <rect x="130" y="100" width="140" height="16" fill="#111"/>
+    <ellipse cx="200" cy="390" rx="70" ry="16" fill="#1a1a1a"/>
+    <path d="M130 374 C 140 400, 260 400, 270 374 L 270 116 L 130 116 Z" fill="#1a1a1a"/>
+    <ellipse cx="200" cy="100" rx="70" ry="16" fill="#111"/>
+    <ellipse cx="200" cy="94" rx="34" ry="8" fill="#2b2b2b"/>
+    <ellipse cx="200" cy="92" rx="20" ry="4.5" fill="#4a4a4a"/>
+    <rect x="130" y="210" width="140" height="90" fill="#ff3b00"/>
+    <path d="M148 130 C 150 220, 150 300, 148 370" stroke="#fff" stroke-width="10" opacity="0.14" fill="none" stroke-linecap="round"/>
+    <text x="200" y="256" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="16" font-weight="700" fill="#fff">TNT</text>
+    <text x="200" y="276" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" letter-spacing="1.5" fill="#fff" opacity="0.88">ENERGY 473ml</text>
+  </g>
+</svg>

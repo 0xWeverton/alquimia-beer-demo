@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" width="400" height="480">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#241b14"/>
+      <stop offset="100%" stop-color="#120e0b"/>
+    </linearGradient>
+    <linearGradient id="hl" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0.22"/>
+      <stop offset="45%" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="480" fill="url(#bg)"/>
+  <ellipse cx="200" cy="442" rx="92" ry="14" fill="#000" opacity="0.35"/>
+  <g>
+    <!-- cap -->
+    <rect x="178" y="46" width="44" height="26" rx="5" fill="#f2c94c"/>
+    <rect x="174" y="68" width="52" height="7" rx="2" fill="#f2c94c"/>
+    <!-- neck -->
+    <rect x="186" y="75" width="28" height="70" rx="4" fill="#d7eadc"/>
+    <rect x="186" y="75" width="10" height="70" fill="url(#hl)"/>
+    <!-- shoulder -->
+    <path d="M186 145 C 150 170, 132 200, 130 230 L 270 230 C 268 200, 250 170, 214 145 Z" fill="#d7eadc"/>
+    <!-- body -->
+    <path d="M130 228 L 130 390 C 130 412, 152 424, 200 424 C 248 424, 270 412, 270 390 L 270 228 Z" fill="#d7eadc"/>
+    <!-- liquid -->
+    <path d="M138 250 L 138 388 C 138 406, 156 416, 200 416 C 244 416, 262 406, 262 388 L 262 250 Z" fill="#eef6e8" opacity="0.92"/>
+    <!-- highlight -->
+    <path d="M150 160 C 148 220, 148 320, 150 400" stroke="#fff" stroke-width="8" opacity="0.16" fill="none" stroke-linecap="round"/>
+    <!-- label -->
+    <rect x="148" y="278" width="104" height="86" rx="6" fill="#0b4a8a"/>
+    <rect x="148" y="278" width="104" height="8" fill="#f2c94c"/>
+    <rect x="148" y="356" width="104" height="8" fill="#f2c94c"/>
+    <text x="200" y="324" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="700" fill="#f6ecda">CORONA</text>
+    <text x="200" y="342" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="8" letter-spacing="0.8" fill="#f6ecda" opacity="0.85">EXTRA 330ml</text>
+  </g>
+</svg>

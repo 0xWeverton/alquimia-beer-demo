@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" width="400" height="480">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#241b14"/>
+      <stop offset="100%" stop-color="#120e0b"/>
+    </linearGradient>
+    <linearGradient id="hl" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0.22"/>
+      <stop offset="45%" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="480" fill="url(#bg)"/>
+  <ellipse cx="200" cy="442" rx="92" ry="14" fill="#000" opacity="0.35"/>
+  <g>
+    <rect x="96" y="128" width="208" height="240" rx="18" fill="#2a1d12"/>
+    <rect x="96" y="128" width="208" height="48" rx="18" fill="#c4841d"/>
+    <rect x="96" y="156" width="208" height="20" fill="#c4841d"/>
+    <text x="200" y="158" text-anchor="middle" font-family="Georgia, serif" font-size="16" font-weight="700" fill="#1a1208">COMBO</text>
+    <rect x="116" y="188" width="52" height="78" rx="8" fill="#efc400"/><text x="142" y="232" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#fff">Skol</text><rect x="174" y="188" width="52" height="78" rx="8" fill="#3a6a8a"/><text x="200" y="232" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#fff">Gelo</text><rect x="232" y="188" width="52" height="78" rx="8" fill="#3a3028"/><text x="258" y="232" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#fff">Carvão</text>
+    <text x="200" y="302" text-anchor="middle" font-family="Georgia, serif" font-size="16" font-weight="700" fill="#f6ecda">Combo Churras</text>
+    <text x="200" y="324" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#c4b7a1">12 latas + gelo + carvão</text>
+    <rect x="130" y="342" width="140" height="6" rx="3" fill="#e8a84a" opacity="0.55"/>
+  </g>
+</svg>

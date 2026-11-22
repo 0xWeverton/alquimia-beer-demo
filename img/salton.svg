@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" width="400" height="480">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#241b14"/>
+      <stop offset="100%" stop-color="#120e0b"/>
+    </linearGradient>
+    <linearGradient id="hl" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0.22"/>
+      <stop offset="45%" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="480" fill="url(#bg)"/>
+  <ellipse cx="200" cy="442" rx="92" ry="14" fill="#000" opacity="0.35"/>
+  <g>
+    <rect x="184" y="32" width="32" height="16" rx="2" fill="#c9a227"/>
+    <rect x="190" y="48" width="20" height="100" rx="3" fill="#ece9d8" opacity="0.85"/>
+    <rect x="188" y="48" width="24" height="46" fill="#c9a227" opacity="0.95"/>
+    <path d="M190 148 C 148 200, 132 250, 132 290 L 268 290 C 268 250, 252 200, 210 148 Z" fill="#ece9d8" opacity="0.85"/>
+    <path d="M132 288 L 132 404 C 132 422, 156 434, 200 434 C 244 434, 268 422, 268 404 L 268 288 Z" fill="#ece9d8" opacity="0.85"/>
+    <path d="M140 300 L 140 402 C 140 416, 160 424, 200 424 C 240 424, 260 416, 260 402 L 260 300 Z" fill="#f4f1e2" opacity="0.88"/>
+    <rect x="194" y="60" width="5" height="90" fill="#fff" opacity="0.16"/>
+    <rect x="150" y="312" width="100" height="72" rx="3" fill="#f4efe0"/>
+    <text x="200" y="344" text-anchor="middle" font-family="Georgia, serif" font-size="12" font-weight="700" fill="#5a4a20">SALTON</text>
+    <text x="200" y="362" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" letter-spacing="0.7" fill="#5a4a20" opacity="0.85">CHARDONNAY</text>
+  </g>
+</svg>

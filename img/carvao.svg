@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" width="400" height="480">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#241b14"/>
+      <stop offset="100%" stop-color="#120e0b"/>
+    </linearGradient>
+    <linearGradient id="hl" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0.22"/>
+      <stop offset="45%" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="480" fill="url(#bg)"/>
+  <ellipse cx="200" cy="442" rx="92" ry="14" fill="#000" opacity="0.35"/>
+  <g>
+    <path d="M170 118 C 182 92, 218 92, 230 118" stroke="#2a241e" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <path d="M124 160 C 124 136, 150 118, 200 118 C 250 118, 276 136, 276 160 L 276 390 C 276 414, 248 430, 200 430 C 152 430, 124 414, 124 390 Z" fill="#3a3028"/>
+    <rect x="124" y="214" width="152" height="140" fill="#2a241e"/>
+    <circle cx="176" cy="252" r="11" fill="#2a2a2a"/>
+    <circle cx="196" cy="248" r="9" fill="#1a1a1a"/>
+    <circle cx="186" cy="266" r="10" fill="#333"/>
+    <circle cx="210" cy="258" r="8" fill="#222"/>
+    <text x="200" y="318" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="20" font-weight="700" fill="#f6ecda">CARVÃO</text>
+    <text x="200" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" letter-spacing="1.6" fill="#f6ecda" opacity="0.88">VEGETAL 4 kg</text>
+  </g>
+</svg>

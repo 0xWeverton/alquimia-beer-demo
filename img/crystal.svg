@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" width="400" height="480">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#241b14"/>
+      <stop offset="100%" stop-color="#120e0b"/>
+    </linearGradient>
+    <linearGradient id="hl" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0.22"/>
+      <stop offset="45%" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="480" fill="url(#bg)"/>
+  <ellipse cx="200" cy="442" rx="92" ry="14" fill="#000" opacity="0.35"/>
+  <g>
+    <rect x="176" y="40" width="48" height="22" rx="6" fill="#1a7aad"/>
+    <path d="M186 62 L 214 62 C 224 90, 230 120, 234 160 L 166 160 C 170 120, 176 90, 186 62 Z" fill="#d7e3ea" opacity="0.4"/>
+    <path d="M166 158 L 234 158 C 246 200, 252 260, 252 310 L 252 390 C 252 414, 230 430, 200 430 C 170 430, 148 414, 148 390 L 148 310 C 148 260, 154 200, 166 158 Z" fill="#d7e3ea" opacity="0.32"/>
+    <path d="M160 220 L 240 220 L 240 392 C 240 410, 224 422, 200 422 C 176 422, 160 410, 160 392 Z" fill="#9fd0ea" opacity="0.88"/>
+    <path d="M176 90 C 178 180, 178 280, 176 390" stroke="#fff" stroke-width="8" opacity="0.16" fill="none"/>
+    <rect x="158" y="236" width="84" height="104" rx="6" fill="#1a7aad"/>
+    <text x="200" y="282" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="13" font-weight="700" fill="#fff">CRYSTAL</text>
+    <text x="200" y="302" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" letter-spacing="0.6" fill="#fff" opacity="0.88">ÁGUA 1,5L</text>
+  </g>
+</svg>

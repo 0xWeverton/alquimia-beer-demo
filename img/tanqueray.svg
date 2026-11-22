@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" width="400" height="480">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#241b14"/>
+      <stop offset="100%" stop-color="#120e0b"/>
+    </linearGradient>
+    <linearGradient id="hl" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0.22"/>
+      <stop offset="45%" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="480" fill="url(#bg)"/>
+  <ellipse cx="200" cy="442" rx="92" ry="14" fill="#000" opacity="0.35"/>
+  <g>
+    <rect x="176" y="36" width="48" height="24" rx="5" fill="#0b3d2e"/>
+    <rect x="172" y="56" width="56" height="8" rx="2" fill="#0b3d2e"/>
+    <rect x="188" y="64" width="24" height="78" rx="3" fill="#e8eef0" opacity="0.8"/>
+    <path d="M188 140 C 152 168, 132 205, 130 240 L 270 240 C 268 205, 248 168, 212 140 Z" fill="#e8eef0" opacity="0.8"/>
+    <path d="M130 238 L 130 398 C 130 418, 154 432, 200 432 C 246 432, 270 418, 270 398 L 270 238 Z" fill="#e8eef0" opacity="0.8"/>
+    <path d="M140 255 L 140 396 C 140 412, 158 422, 200 422 C 242 422, 260 412, 260 396 L 260 255 Z" fill="#cfd8dc" opacity="0.4"/>
+    <rect x="192" y="72" width="7" height="70" fill="#fff" opacity="0.2"/>
+    <rect x="142" y="278" width="116" height="88" rx="3" fill="#0b3d2e"/>
+    <rect x="142" y="278" width="116" height="7" fill="#c9a227"/>
+    <rect x="142" y="359" width="116" height="7" fill="#c9a227"/>
+    <text x="200" y="322" text-anchor="middle" font-family="Georgia, serif" font-size="13" font-weight="700" fill="#f6ecda">TANQUERAY</text>
+    <text x="200" y="342" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" letter-spacing="0.8" fill="#f6ecda" opacity="0.85">LONDON DRY 750ml</text>
+  </g>
+</svg>
